@@ -82,6 +82,7 @@ GEM
       treetop (~> 1.4.8)
     mime-types (1.21)
     multi_json (1.5.1)
+    newrelic_rpm (3.5.5.38)
     orm_adapter (0.4.0)
     pg (0.14.1)
     polyglot (0.3.3)
@@ -168,6 +169,7 @@ DEPENDENCIES
   hominid (>= 3.0.5)
   hpricot (>= 0.8.6)
   jquery-rails
+  newrelic_rpm
   pg
   quiet_assets (>= 1.0.1)
   rails (= 3.2.12)
