@@ -19,13 +19,14 @@ group :development, :test do
 	gem "hpricot", ">= 0.8.6"
 	gem "ruby_parser", ">= 3.1.1"
 	gem 'sqlite3'
-  gem "quiet_assets", ">= 1.0.1"
-  gem "better_errors", ">= 0.3.2"
-  gem "binding_of_caller", ">= 0.6.8"
+	gem "quiet_assets", ">= 1.0.1"
+	gem "better_errors", ">= 0.3.2"
+	gem "binding_of_caller", ">= 0.6.8"
 end
 
 group :production do
-  gem "unicorn", ">= 4.3.1"	
+	gem "unicorn", ">= 4.3.1"	
+	gem "pg"
 end
 
 group :assets do
